@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal portfolio website - Responsive</title>
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custom css file  -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- header section starts -->
+    <header>
+      <div class="user">
+        <img src="images/pic.jpg" alt="My Photo" />
+        <h3 class="name">Rishab Prasad</h3>
+        <p class="post">Frontend Developer</p>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#education">Education</a>
+          </li>
+          <!-- <li>
+            <a href="#portfolio">Portfolio</a>
+          </li> -->
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- header section ends -->
+    <div id="menu" class="fas fa-bars"></div>
+    <!-- home section  starts  -->
+    <section class="home" id="home">
+      <h3>Hi there!!</h3>
+      <h1>I'm <span>Rishab Prasad</span></h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum
+      </p>
+      <a href="#about"
+        ><button class="btn">about<i class="fas fa-user"></i></button
+      ></a>
+    </section>
+    <!-- home section ends  -->
+    <!-- about section starts  -->
+    <section class="about" id="about">
+      <h1 class="heading"><span>about</span> me</h1>
+      <div class="row">
+        <div class="info">
+          <h3><span>name :</span> Rishab Prasad</h3>
+          <h3><span>age :</span> 23</h3>
+          <h3>
+            <span>qualification :</span> B.Tech (Computer Science & Engineering)
+          </h3>
+          <h3><span>role :</span> Software Developer (Frontend)</h3>
+          <h3><span>languages :</span> English, Hindi, Bengali, Nepali</h3>
+          <a href="#"
+            ><button class="btn">
+              Download CV <i class="fas fa-download"></i></button
+          ></a>
+        </div>
+        <div class="counter">
+          <div class="box">
+            <span>1.5 </span>
+            <h3>Years of Experience</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section ends   -->
+    <!-- education section starts  -->
+    <section class="education" id="education">
+      <h1 class="heading">My <span>education</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2016-2020</span>
+          <h3>B.Tech (Computer Science & Engineering)</h3>
+          <p>
+            Institute: St. Thomas' College Of Engineering & Technology,
+            University: MAKAUT(Maulana Abul Kalam Azad University of
+            Technology), Grade:8.99 DGPA
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2016</span>
+          <h3>Higher Secondary (Science)</h3>
+          <p>Institute: Army Public School, Board: CBSE, Percentage: 88.6%</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2014</span>
+          <h3>Matriculation (Xth)</h3>
+          <p>
+            Institute: Sarwan Memorial School, University: ICSE, Percentage:
+            87.167%
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- education section ends  -->
+    <!-- portfolio section starts  -->
+    <!-- <section class="portfolio" id="portfolio">
+      <h1 class="heading">My <span>portfolio</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="images/pic.jpg" alt="" />
+        </div>
+        <div class="box">
+          <img src="images/pic.jpg" alt="" />
+        </div>
+        <div class="box">
+          <img src="images/pic.jpg" alt="" />
+        </div>
+        <div class="box">
+          <img src="images/pic.jpg" alt="" />
+        </div>
+        <div class="box">
+          <img src="images/pic.jpg" alt="" />
+        </div>
+      </div>
+    </section> -->
+    <!-- portfolio section ends  -->
+    <!-- contact section starts  -->
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>Contact </span>me</h1>
+      <div class="row">
+        <div class="content">
+          <h3 class="title">contact info</h3>
+          <div class="info">
+            <h3><i class="fas fa-envelope"></i> rishabgt@gmail.com</h3>
+            <h3><i class="fas fa-phone"></i> +918116567533</h3>
+            <h3>
+              <i class="fas fa-map-marker-alt"></i> Looksan, Nagrakata, dist.
+              Jalpaiguri, West Bengal, India - 735205
+            </h3>
+          </div>
+        </div>
+        <form action="">
+          <input type="text" name="name" placeholder="name" class="box" />
+          <input type="email" name="email" placeholder="email" class="box" />
+          <input type="text" name="project" placeholder="project" class="box" />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            class="box message"
+            placeholder="message"
+          ></textarea>
+          <button type="submit" class="btn">
+            send <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+    <!-- contact section ends  -->
+    <!-- scroll top button starts -->
+    <!-- <a href="#home" class="top">
+      <img src="images/slide-top-bottom.svg" alt="" />
+    </a> -->
+    <!-- scroll top button ends  -->
+    <!-- jquery cdn  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- custom js file -->
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
