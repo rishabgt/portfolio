@@ -388,4 +388,7 @@ section {
   .portfolio .box {
     width: 100%;
   }
+  #home{
+    padding: 2rem;
+  }
 }

@@ -9,6 +9,11 @@ $(document).ready(function(){
     exp = exp/(1000*3600*24*365);
     var exp = Math.round(exp*10)/10;
     $('.counter .box span').text(exp);
+    date1 = new Date("07/18/1998");
+    exp = currentDate.getTime() - date1.getTime();
+    exp = exp/(1000*3600*24*365);
+    exp = Math.floor(exp);
+    $('.row .info h3:eq(1)').text(exp);
 });
 
 $(window).on('scroll load',function(){
