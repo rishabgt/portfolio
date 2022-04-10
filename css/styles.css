@@ -371,6 +371,9 @@ section {
   header {
     font-size: 50%;
   }
+  #home {
+    padding: 2rem;
+  }
 }
 @media (max-width: 400px) {
   header {
