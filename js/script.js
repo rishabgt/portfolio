@@ -14,6 +14,9 @@ $(document).ready(function(){
     exp = exp/(1000*3600*24*365);
     exp = Math.floor(exp);
     $('.row .info h3:eq(1)').text(exp);
+    $('form .btn').on('click',function(e){
+        alert("Oops! Functionality still in progress, mail me at rishabgt@gmail.com for any queries!")
+    });
 });
 
 $(window).on('scroll load',function(){
